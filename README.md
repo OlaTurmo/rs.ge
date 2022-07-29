@@ -5,6 +5,7 @@
   
   
 // This first part finds and login with test user. This needs to be replaced with login for user
+
             driver.Navigate().GoToUrl("https://eservices.rs.ge/Login.aspx")
             System.Threading.Thread.Sleep(3000)
             Dim CurrentUrl As String = driver.Url
@@ -26,7 +27,6 @@
                 Dim Input1 As String = line(1)
                 Dim Input2 As String = line(2)
                 Dim Radio As Integer = line(3)
-RETRY:
 
                 Try
 
